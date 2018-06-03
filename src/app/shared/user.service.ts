@@ -11,10 +11,10 @@ export interface UserLogin {
 }
 
 @Injectable()
-export class UserService {
+export class UserService {  
 
   //readonly rootUrl = "https://localhost:44318";
-  readonly rootUrl = "http://edukot.azurewebsites.net/";
+  readonly rootUrl = "http://edukotapi.azurewebsites.net/";
   constructor(private http: HttpClient) { }
 
 
