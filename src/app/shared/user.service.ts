@@ -14,7 +14,7 @@ export interface UserLogin {
 export class UserService {  
 
   //readonly rootUrl = "https://localhost:44318";
-  readonly rootUrl = "http://edukotapi.azurewebsites.net/";
+  readonly rootUrl = "https://edukotapi.azurewebsites.net/";
   constructor(private http: HttpClient) { }
 
 
